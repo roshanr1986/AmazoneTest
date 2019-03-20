@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.805257">
+    <testcase classname="Testing Amazon website" name="As a Web user I click on login link and Provide incorrect username and validate error." time="31.805257">
+        <system-out>
+            <![CDATA[Given Web user navigate to the URL..........................................passed
+When Web user type incorrect user name "incorrect@abc.com" and password "12345".passed
+Then The error message should be "We cannot find an account with that email address".passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
